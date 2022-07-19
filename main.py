@@ -78,19 +78,19 @@ while True:
     attempt = input('TENTA A SORTE, VACILÃO: ').upper()
     if attempt in inputs:
         os.system('clear')
-        print('ESSA JÁ FOI SEU BOCA DE BURRO!')
+        print('ESSA JÁ FOI, SEU BOCA DE BURRO!')
         continue
     if len(attempt) == 0:
         os.system('clear')
-        print('TEM QUE POR UMA LETRA SUA ANTA!')
+        print('TEM QUE POR UMA LETRA, SUA ANTA!')
         continue
     if not attempt.isalpha():
         os.system('clear')
-        print('SÓ TRABALHO COM LETRAS SUA CENTOPÉIA PARALÍTICA!')
+        print('SÓ TRABALHO COM LETRAS, SUA CENTOPÉIA PARALÍTICA!')
         continue
     if len(attempt) > 1:
         os.system('clear')
-        print('UMA LETRA POR VEZ SEU ANIMAL DE TETA!')
+        print('UMA LETRA POR VEZ, SEU ANIMAL DE TETA!')
         continue
     inputs.append(attempt)
     os.system('clear')
